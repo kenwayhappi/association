@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Playfair+Display:wght@600&display=swap');
+.redressed{
+    font-family: 'Courier New', Courier, monospace;
+}
+.merriweather{
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    width: 55px;
+    height: auto;
+}
+.cc-navbar{
+ z-index:  99;
+}
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+.banner{
+    background: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5)),url('../image/f.png') 
+    center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.banner .banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
